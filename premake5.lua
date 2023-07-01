@@ -60,6 +60,7 @@ project "Library"
 	cppdialect "C++17"
 	staticruntime "off"
 	systemversion "latest"
+	defines { "BUILD_DLL" }
 	
 	targetdir "Bin/Library/%{cfg.buildcfg}/%{cfg.platform}"
 	objdir "Bin/Intermediate/Library/%{cfg.buildcfg}/%{cfg.platform}"
