@@ -1,5 +1,3 @@
-#define EDITOR
-
 #include "Core.h"
 #include "Application.h"
 

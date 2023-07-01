@@ -30,6 +30,12 @@
 *.out
 *.app
 
+# Visual Studio Files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
 # Folders
-intermediate/
+bin/
 .vs/
